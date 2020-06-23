@@ -1,0 +1,242 @@
+@font-face {
+    font-family: asinastra;
+    src: url(../fonts/asinastra.otf);
+}
+
+body {
+    background: url(../img/bg.png);
+    height: 1920px;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1150px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.text-char-first {
+font-family: asinastra;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 45px;
+color: #FFFFFF;
+text-shadow: 0px 12px 3px rgba(0, 0, 0, 0.65);
+width: 730px;
+height: 260px;
+margin-top: -370px;
+margin-left: 490px;
+}
+
+
+.line-second {
+    margin-top: 105px;
+}
+
+.second-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.text-chat-second {
+    font-family: asinastra;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 45px;
+    color: #FFFFFF;
+    text-shadow: 0px 12px 3px rgba(0, 0, 0, 0.65);
+    width: 730px;
+    height: 260px;
+    margin-top: -445px;
+    margin-left: -90px;
+    text-align: right;
+}
+
+.logo-char-second {
+    margin-left: 670px;
+}
+
+.line-third {
+    margin-top: 155px;
+}
+
+.comics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -550px;
+    width: 1100px;
+    margin-top: -40px;
+    color: #FFFFFF;
+text-shadow: 0px 12px 3px rgba(0, 0, 0, 0.65);
+font-family: asinastra;
+font-style: normal;
+font-weight: normal;
+font-size: 45px;
+}
+
+.first-comics {
+    margin-top: 100px;
+    width: 420px;
+    height: 166px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    margin-left: -25px;
+    cursor: pointer;
+}
+
+.first-comics-text {
+    margin-top: 153px;
+    position: absolute;
+    text-align: center;
+    width: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: asinastra;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+color: #FFFFFF;
+text-shadow: 0px 12px 3px rgba(0, 0, 0, 0.65);
+}
+
+.second-comics {
+    margin-top: -165px;
+    width: 420px;
+    height: 166px;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    margin-left: 650px;
+    cursor: pointer;
+}
+
+.second-comics-text {
+    margin-top: 153px;
+    position: absolute;
+    text-align: center;
+    width: 400px;
+    margin-left: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: normal;
+font-weight: normal;
+font-size: 22px;
+color: #FFFFFF;
+text-shadow: 0px 12px 3px rgba(0, 0, 0, 0.65);
+font-family: asinastra;
+}
+
+.line-fourth {
+    position: relative;
+    left: 50%;
+    margin-left: -570px;
+    margin-top: 120px;
+}
+
+.group {
+    display: flex;
+    width: 1100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-group-self a {
+text-align: center;
+position: absolute;
+left: 50%;
+width: 1100px;
+margin-left: -550px;
+font-family: asinastra;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+color: #FFFFFF;
+text-shadow: 0px 12px 3px rgba(0, 0, 0, 0.65);
+text-decoration: none;
+cursor: pointer;
+z-index: 1;
+-webkit-transition: 1.8s ease;
+}
+
+.text-group-news a {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    width: 1100px;
+    margin-left: -550px;
+    font-family: asinastra;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+color: #FFFFFF;
+text-shadow: 0px 12px 3px rgba(0, 0, 0, 0.65);
+margin-top: 2px;
+text-decoration: none;
+margin-top: 40px;
+-webkit-transition: 1.8s ease;
+}
+
+a:hover {
+    color: #40A3FF;
+    transition: 0.75s;
+    -webkit-transition: 1.8s ease;
+}
+
+.line-fifth {
+    position: absolute;
+    width: 1100px;
+    left: 50%;
+    margin-left: -562.5px;
+    margin-top: 120px;
+}
+
+.watermark a {
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -550px;
+    margin-top: 150px;
+    font-family: asinastra;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+opacity: 0.2;
+color: #ccc;
+text-decoration: none;
+-webkit-transition: 1.8s ease;
+}
+
+.watermark a:hover {
+    color: #fff;
+}
