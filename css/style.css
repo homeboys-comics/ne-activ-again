@@ -19,11 +19,27 @@ body {
     justify-content: center;
 }
 
+.logo-class-by {
+    transition: 1.2s;
+}
+
+.logo-class-by:hover {
+    transform: scale(1.05);
+}
+
 .first-info {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+}
+
+.character-first-class {
+    transition: 1.2s;
+}
+
+.character-first-class:hover {
+    transform: scale(1.05);
 }
 
 .text-char-first {
@@ -65,6 +81,14 @@ margin-left: 490px;
     margin-top: -445px;
     margin-left: -90px;
     text-align: right;
+}
+
+.character-second-class {
+    transition: 1.2s;
+}
+
+.character-second-class:hover {
+    transform: scale(1.05);
 }
 
 .logo-char-second {
@@ -152,6 +176,14 @@ font-size: 22px;
 color: #FFFFFF;
 text-shadow: 0px 12px 3px rgba(0, 0, 0, 0.65);
 font-family: asinastra;
+}
+
+.first-comics-class {
+    transition: 1.2s;
+}
+
+.first-comics-class:hover {
+    transform: scale(1.05);
 }
 
 .line-fourth {
