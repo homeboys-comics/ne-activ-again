@@ -1,10 +1,10 @@
-@media screen and (min-width: 1100px) {
+@media screen and (max-width: 1100px) {
     #pagewrap {
-        width: 150vw;
+        width: 95vw;
     }
     #content {
-        width: 60%;
-        padding: 3% 4%;
+        width: 60vw;
+        padding: 3vw 4vw;
     }
 }
 
