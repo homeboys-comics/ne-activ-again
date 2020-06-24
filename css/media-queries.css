@@ -36,14 +36,14 @@
         padding: 100px 80px;
     }
     img {
-        max-width: 100%;
-        height: auto;
+        max-width: 50vw;
+        height: 7vw;
         width: auto\9; /* ie8 */
     }
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    max-width: 50vw;
+    height: 7vw;
     width: auto\9; /* ie8 */
 }
