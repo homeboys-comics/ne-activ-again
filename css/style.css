@@ -272,3 +272,17 @@ text-decoration: none;
 .watermark a:hover {
     color: #fff;
 }
+
+#pagewrap {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#content {
+    width: 1100px;
+    float:unset ;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
